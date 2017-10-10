@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{%
+  Problem Statement \\
+  \large Core Body Temperature Estimation to Detect Ebola Virus Disease \\
+    }
+\author{Claude Maimon }
+\date{Due Date: Monday, 9 October, 23:59:597}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+For this project, we will work on a model that could save lives. As part of a large project to fight the Ebola Virus Disease, we will design a model that will accurately estimate an individual’s core body temperature. We will work with Medecins Sans Frontieres to design and build our model. We will design the software for the project while a MIME Capstone team will design the hardware.  \end{abstract}
+
+\section{Problem}
+Medecins Sans Frontieres’s doctors work with patients that are at high risk to be exposed to the Ebola Virus Disease. They would like to minimize the exposure risk for the Ebola Virus Disease and help to stop the West Africa Ebola outbreak. They would like to know if a person has the Ebola Virus before allowing patients into the treatments areas. They want to be able to let non-symptomatic people enter the center from one entrance, and patient that have the Ebola virus symptoms in through another entrance. This approach will lower the risk of infection for both staff and public members.\par 
+Our client needs a solution that will detect individuals with Ebola symptoms without checking them with a thermometer. A Thermometer would give an accurate estimation but it will put staff at a risk of infection. There I a need for a system that will establish an estimate with no human contact. This system should work with minimal risk for the staff and the public members. The faster an individual could be diagnosed, the safer it will be for the present individuals. Moreover, there is a need for a fast diagnosis. A thermometer test can take minutes. The new test should be faster and work for many people. \par
+People with Ebola virus have higher core body temperature. There is a need for a model that will accurately predict core body of patients that are arriving at the care center. The model will need to use data from stand-off sensors. The data will be of a thermal camera and other selected sensors. There is a need for a model that will help estimate body core temperature by analyzing the given data.   
+
+\section{Proposed solution}
+We will design a computational model that will predict patient’s core body temperature. Our model will use data from stand-off sensors. The data will consist of skin temperature, thermal heat and more. We will learn the patterns of the data to create an accurate mathematical model that will accurately predict an individual body core temperature. The higher the core body temperature, the higher the risk of an individual having the Ebola Virus. Our model will not require personal contact. This way it will lower the risk of staff getting infected with Ebola.
+
+\section{Performance metrics}
+\begin{itemize}
+\item Our final model will be able to predict an individual core body temperature with a 99 percent accuracy. We will test this with a large amount of data in order to conclude that we have reached this target. (We still don’t know how much data will be available for us). 
+\item Our product will be much faster than a thermometer check. While a thermometer takes minutes, our test will take seconds. Promising a short test time will assist in minimizing the exposure of non-infected individuals. 
+\item Our model will not require more than two people to operate. When we’ll have more data, we might make this requirement just one person. (someone will need to monitor the results to notice people with higher core body temperatures)
+\item Our product will be operable by a person with no computer science background or an engineering background. People with no such knowledge will be able to run our model and understand the results. We will present the results in an easy to interpret meaner.
+\item Our model will have a range of possible results. Since many factors can change an individual skin’s temperature.  Our model will have a result that shows an estimated temperature and list of factors that might have affected that reading. 
+\end{itemize}
+\end{document}
